@@ -1,7 +1,10 @@
 export const accordionData = [
   {
     title: "Observant",
-    content: "I have a talent for noticing things, particularly about other people. I pay attention to the smallest details of what someone says and does, giving them unexpected insights into other people's lives and emotions.",
+    content: `I have a talent for noticing things, 
+    particularly about other people. 
+    I pay attention to the smallest details of what someone says and does, 
+    giving them unexpected insights into other people's lives and emotions.`,
   },
   {
     title: "Supportive",
