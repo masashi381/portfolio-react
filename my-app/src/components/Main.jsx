@@ -4,6 +4,7 @@ import About from "./About";
 import Projects from './Projects';
 import Skills from './Skills';
 import Work from './Work';
+import Contacts from "./Contacts";
 
 export default function Main(){
   return (
@@ -13,6 +14,7 @@ export default function Main(){
     <Projects/>
     <Skills/>
     <Work/>
+    <Contacts/>
     </>
   )
 }
