@@ -5,7 +5,7 @@ import { accordionData } from "./data/AccordionData";
 
 export default function Skills() {
   return (
-    <div>
+    <div id="skills">
       <h3>Skills</h3>
       <div>
         <div className="accordion">
