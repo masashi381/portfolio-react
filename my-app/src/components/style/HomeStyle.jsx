@@ -8,15 +8,19 @@ export const HomeContainer = styled.div`
 `
 
 export const MainTitle = styled.h1`
-  font-size: 56px;
+  font-size: 7rem;
   font-family: 'Shantell Sans', cursive;
-  margin: 0;
+
 `
 export const MiniTitle = styled.h2`
-  font-size: 28px;
+  font-size: 2.8rem;
   font-family: 'Mynerve', cursive;
-  margin: 0;
+
 `
 export const LinkStyle = styled(Link)`
-  margin-right: 1rem;
+  font-size: 2rem;
+  color: rgb(73, 74, 76);
+  &:first-child{
+    margin-right: 2rem;
+  }
 `

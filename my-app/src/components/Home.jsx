@@ -13,7 +13,7 @@ export default function Home(){
       {/* SNS */}
       <div>
         <LinkStyle to="https://www.instagram.com/marcy.387" target="_blank"><i className="fa-brands fa-instagram fa-lg"></i></LinkStyle>
-        <Link to="https://github.com/masashi381" target="_blank"><i className="fa-brands fa-github fa-lg"></i></Link>
+        <LinkStyle to="https://github.com/masashi381" target="_blank"><i className="fa-brands fa-github fa-lg"></i></LinkStyle>
       </div>
     </HomeContainer>
   )
