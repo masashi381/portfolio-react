@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import { MainTitle, MiniTitle, HomeContainer, LinkStyle } from './style/HomeStyle';
 
 export default function Home(){

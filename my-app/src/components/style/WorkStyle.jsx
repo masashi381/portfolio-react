@@ -32,20 +32,23 @@ export const AccordionFlex = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-`
+`;
+
 export const TitleStyle = styled.div`
   display: block;
   margin-bottom: 0.1rem;
   padding: 1rem;
   font-size: 1.8rem;
-`
+`;
+
 export const ToggleStyle = styled.div`
 margin-right: 1rem;
-`
+`;
+
 export const ContentStyle = styled.div`
   height: 30rem;
   white-space: pre-line;
   background-color: white;
   color: rgb(106, 109, 113);
   padding: 1rem;
-`
+`;
