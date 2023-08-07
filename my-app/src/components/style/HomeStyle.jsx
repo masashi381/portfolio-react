@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export const HomeContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 3rem;
+  margin:  0 3rem 3rem;
+  padding-top: 12rem;
+  height: 100vh;
 `
 
 export const MainTitle = styled.h1`

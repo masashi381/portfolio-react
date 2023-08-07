@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 
 export const HeaderStyle = styled.header`
   display: block;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 50px;
   nav {
     background-color: rgb(249, 249, 249);
     padding: 3rem 2rem 3rem 0;

@@ -16,7 +16,7 @@ export default function ProgrammingSkills() {
         <p>SASS</p>
       </Grid3>
       <Grid4>
-        <i class="fa-brands fa-github"></i>
+        <i className="fa-brands fa-github"></i>
         <p>Github</p>
       </Grid4>
       <Grid5>

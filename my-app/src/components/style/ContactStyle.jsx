@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 export const  ContactsContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 5rem 2rem;
+  padding-top: 12rem;
+  margin: 0 2rem 5rem;
 `;
 
 // form style

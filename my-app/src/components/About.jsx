@@ -7,7 +7,8 @@ const AboutContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem;
+  padding-top: 12rem;
+  margin: 0 3rem 3rem;
 `
 const ImgStyle = styled.img`
   width: 30vw;

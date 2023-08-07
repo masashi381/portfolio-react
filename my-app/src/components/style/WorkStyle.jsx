@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const WorkContainer = styled.div`
   width: 80vw;
   height: 80vh;
+  padding-top: 12rem;
   margin: 0 auto;
   h3 {
   font-family: "Mynerve", cursive;
