@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { FormStyle } from "./style/ContactStyle";
 
 export default function(){
   const getName = useRef(null);
@@ -36,16 +37,24 @@ export default function(){
   };
 
   return(
-    <form onSubmit={submitHandler}>
-      <label htmlFor="name" >name</label>
-      <input type="text" id="name" ref={getName}/>
-      <label htmlFor="mail">Email</label>
-      <input type="text" id="mail" ref={getMail}/>
-      <label htmlFor="subject">Subject</label>
-      <input type="text" id="subject" ref={getSubject}/>
-      <label htmlFor="comment"></label>
-      <textarea name="" id="comment" cols="30" rows="10" ref={getMessage}></textarea>
+    <FormStyle onSubmit={submitHandler}>
+      <div>
+        <label htmlFor="name" >name</label>
+        <input type="text" id="name" ref={getName}/>
+      </div>
+      <div>
+        <label htmlFor="mail">Email</label>
+        <input type="text" id="mail" ref={getMail}/>
+      </div>
+      <div>
+        <label htmlFor="subject">Subject</label>
+        <input type="text" id="subject" ref={getSubject}/>
+      </div>
+      <div>
+        <label htmlFor="comment"></label>
+        <textarea name="" id="comment" cols="30" rows="10" ref={getMessage}></textarea>
+      </div>
       <button >SUBMIT</button>
-    </form>
+    </FormStyle>
   )
 };

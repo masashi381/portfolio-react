@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { MainTitle, MiniTitle, HomeContainer, LinkStyle } from './style/HomeStyle';
 
 export default function Home(){
   return(
-    <div>
+    <HomeContainer>
       {/* title */}
       <div>
-        <h1>Masashi Sawada</h1>
-        <h2>This is my portfolio</h2>
+        <MainTitle>Masashi Sawada</MainTitle>
+        <MiniTitle>This is my portfolio</MiniTitle>
       </div>
       {/* SNS */}
       <div>
-        <Link to="https://www.instagram.com/marcy.387" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
-        <Link to="https://github.com/masashi381" target="_blank"><i className="fa-brands fa-github"></i></Link>
+        <LinkStyle to="https://www.instagram.com/marcy.387" target="_blank"><i className="fa-brands fa-instagram fa-lg"></i></LinkStyle>
+        <LinkStyle to="https://github.com/masashi381" target="_blank"><i className="fa-brands fa-github fa-lg"></i></LinkStyle>
       </div>
-    </div>
+    </HomeContainer>
   )
 }

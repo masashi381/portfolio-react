@@ -1,9 +1,10 @@
 import WorkAccordion from "./WorkAccordion";
 import { workAccordionData } from "./data/WorkAccordionData";
+import { WorkContainer } from "./style/WorkStyle";
 
 export default function Work(){
   return(
-    <div>
+    <WorkContainer>
       <h3>Work</h3>
       <div>
         <div className="accordion">
@@ -12,6 +13,6 @@ export default function Work(){
           ))}
         </div>
       </div>
-    </div>
+    </WorkContainer>
   )
 };
