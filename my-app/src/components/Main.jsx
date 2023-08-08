@@ -7,11 +7,11 @@ import NotFound from './NotFound';
 import { Routes, Route} from 'react-router-dom';
 
 
-export default function Main(){
+export default function Main({ getSkills }){
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomeContainer/>}/>
+        <Route path="/" element={<HomeContainer getSkills={getSkills}/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/work" element={<Work/>}/>
         <Route path="/contacts" element={<Contacts/>}/>

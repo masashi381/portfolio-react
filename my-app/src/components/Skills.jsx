@@ -4,9 +4,9 @@ import { accordionData } from "./data/AccordionData";
 import { SkillsTitle, SkillsContainer } from "./style/SkillsStyle";
 
 
-export default function Skills() {
+export default function Skills({ getSkills }) {
   return (
-    <div id="skills">
+    <div id="skills" ref={getSkills}>
       <SkillsTitle>Skills</SkillsTitle>
       <SkillsContainer>
         <div className="accordion">
