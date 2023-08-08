@@ -2,7 +2,9 @@ import { HeaderStyle, HeaderLinkStyle } from "./style/HeaderStyle";
 
 export default function Header({ passSkills, getSkills}){
   const skillClickedHandler = () => {
-    getSkills.current.scrollIntoView();
+    getSkills.current.scrollIntoView({
+      behavior: "smooth"
+    });
   };
   return (
     <HeaderStyle>
