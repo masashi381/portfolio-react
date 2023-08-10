@@ -5,7 +5,7 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin:  0 3rem 3rem;
-  padding-top: 12rem;
+  padding-top: 20rem;
   height: 100vh;
 `
 
