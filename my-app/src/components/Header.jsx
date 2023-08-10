@@ -1,8 +1,13 @@
 import { HeaderStyle, HeaderLinkStyle } from "./style/HeaderStyle";
 
-export default function Header({ passSkills, getSkills}){
+export default function Header(props){
   const skillClickedHandler = () => {
-    getSkills.current.scrollIntoView({
+    props.getSkills.current.scrollIntoView({
+      behavior: "smooth"
+    });
+  };
+  const projectsClickedHandler = () => {
+    props.getProjects.current.scrollIntoView({
       behavior: "smooth"
     });
   };
@@ -12,8 +17,8 @@ export default function Header({ passSkills, getSkills}){
         <ul>
           <li><HeaderLinkStyle to="/">home</HeaderLinkStyle></li>
           <li><HeaderLinkStyle to="/about">About</HeaderLinkStyle></li>
-          <li><HeaderLinkStyle to="/#projects">Projects</HeaderLinkStyle></li>
-          <li><HeaderLinkStyle to="/#skills" onClick={skillClickedHandler} ref={passSkills}>Skills</HeaderLinkStyle></li>
+          <li><HeaderLinkStyle to="/#projects" onClick={projectsClickedHandler} ref={props.passProjects}>Projects</HeaderLinkStyle></li>
+          <li><HeaderLinkStyle to="/#skills" onClick={skillClickedHandler} ref={props.passSkills}>Skills</HeaderLinkStyle></li>
           <li><HeaderLinkStyle to="/work">Work Experience</HeaderLinkStyle></li>
           <li><HeaderLinkStyle to="/contacts">Contacts</HeaderLinkStyle></li>
         </ul>

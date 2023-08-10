@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import PersonalSkills from "../PersonalSkills";
-import ProgrammingSkills from "../ProgrammingSkills";
 
 export const SkillsTitle = styled.h3`
   font-family: "Mynerve", cursive;

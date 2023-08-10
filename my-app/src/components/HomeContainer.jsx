@@ -1,11 +1,11 @@
 import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
-export default function HomeContainer({ getSkills }){
+export default function HomeContainer({ getSkills, getProjects }){
   return(
     <div>
       <Home/>
-      <Projects/>
+      <Projects getProjects={getProjects}/>
       <Skills getSkills={getSkills}/>
     </div>
   )
