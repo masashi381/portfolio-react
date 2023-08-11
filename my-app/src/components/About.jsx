@@ -1,33 +1,25 @@
 import React from 'react';
-import styled from "styled-components"
-
-
-const AboutContainer = styled.div`
-  height: 70vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 12rem;
-  margin: 0 3rem 3rem;
-`
-const ImgStyle = styled.img`
-  width: 30vw;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-left: 5rem;
-`
-const AboutDescStyle = styled.p`
-  width: 40vw;
-    margin: 0 auto;
-    font-size: 1.6rem;
-`
+import { AboutContainer, ImgStyle, AboutInner, MiniTitle, Detail, HobbyTitle, Items, HikeIcon, MovieIcon, BookIcon, TravelIcon, GymIcon, TennisIcon } from "./style/AboutStyle";
 
 export default function About(){
   return(
     <AboutContainer>
       <ImgStyle src="../src/images/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg" alt="my picture" />
-      <AboutDescStyle>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci corporis laudantium nam velit asperiores nihil doloremque eveniet ullam omnis. Velit veritatis iure deleniti incidunt, possimus dolorum veniam unde sequi ea?</AboutDescStyle>
+      <div>
+        <MiniTitle>Hello, I am <strong>Masashi Sawada</strong> located in Vancouver.</MiniTitle>
+        <Detail>I am Studying Web Development in Cornerstone International community College . I am highly interested in React.js.</Detail>
+        <div>
+          <HobbyTitle>A part from coding,  some other activities that I love to do</HobbyTitle>
+          <Items>
+            <li><TennisIcon className="fa-solid fa-table-tennis-paddle-ball"></TennisIcon>tennis</li>
+            <li><HikeIcon className="fa-solid fa-person-hiking"></HikeIcon>hiking</li>
+            <li><MovieIcon className="fa-solid fa-film"></MovieIcon>movie</li>
+            <li><BookIcon className="fa-solid fa-book"></BookIcon>books</li>
+            <li><TravelIcon className="fa-solid fa-suitcase"></TravelIcon>traveling</li>
+            <li><GymIcon className="fa-solid fa-dumbbell"></GymIcon>Gym</li>
+          </Items>
+        </div>
+      </div>
     </AboutContainer>
   )
 };
