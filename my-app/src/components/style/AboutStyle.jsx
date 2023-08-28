@@ -50,4 +50,15 @@ export const AboutContainer = styled.div`
 			}
 		}
 	}
+
+	@media screen and (max-width: 820px) {
+		padding-top: 1rem;
+		height: 50vh;
+		.aboutInner {
+			margin-left: 2rem;
+		}
+		ul {
+			width: 40vw;
+		}
+	}
 `;

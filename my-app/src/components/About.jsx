@@ -5,7 +5,7 @@ export default function About() {
 	return (
 		<AboutContainer>
 			<img src="../src/images/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg" alt="my picture" />
-			<div>
+			<div className="aboutInner">
 				<p className="miniTitle">
 					Hello, I am <strong>Masashi Sawada</strong> located in Vancouver.
 				</p>
