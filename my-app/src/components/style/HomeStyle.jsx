@@ -15,6 +15,10 @@ export const HomeContainer = styled.div`
 		font-size: 2.8rem;
 		font-family: "Mynerve", cursive;
 	}
+
+	@media screen and (max-width: 820px) {
+		height: 40vh;
+	}
 `;
 
 export const LinkStyle = styled(Link)`

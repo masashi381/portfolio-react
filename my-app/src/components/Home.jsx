@@ -1,5 +1,5 @@
 import React from "react";
-import { MainTitle, MiniTitle, HomeContainer, LinkStyle } from "./style/HomeStyle";
+import { HomeContainer, LinkStyle } from "./style/HomeStyle";
 
 export default function Home() {
 	return (
