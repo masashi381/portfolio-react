@@ -12,6 +12,12 @@ export const WorkContainer = styled.div`
 		text-align: center;
 		margin: 3rem 0;
 	}
+	@media screen and (max-width: 820px) {
+		width: 90vw;
+		h3 {
+			font-size: 4.5rem;
+		}
+	}
 `;
 
 // WorkAccordionStyles
