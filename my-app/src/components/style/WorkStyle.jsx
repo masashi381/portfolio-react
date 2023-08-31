@@ -7,16 +7,13 @@ export const WorkContainer = styled.div`
 	margin: 0 auto;
 	h3 {
 		font-family: "Mynerve", cursive;
-		font-size: 3rem;
+		font-size: 5rem;
 		color: rgb(106, 109, 113);
 		text-align: center;
 		margin: 3rem 0;
 	}
 	@media screen and (max-width: 820px) {
 		width: 90vw;
-		h3 {
-			font-size: 4.5rem;
-		}
 	}
 `;
 

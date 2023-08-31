@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
 	height: 50vw;
+	padding-top: 10rem;
 	h3 {
 		font-family: "Mynerve", cursive;
-		font-size: 3rem;
+		font-size: 5rem;
 		color: rgb(106, 109, 113);
 		text-align: center;
 	}
@@ -12,11 +13,12 @@ export const SkillsContainer = styled.div`
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		height: 80vh;
+		height: 60vh;
 		margin-top: 5rem;
 	}
 
 	@media screen and (max-width: 820px) {
+		padding-top: 8rem;
 		h3 {
 			font-size: 4.5rem;
 		}
@@ -40,6 +42,7 @@ export const AccordionInner = styled.div`
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		cursor: pointer;
 		h3 {
 			display: block;
 			margin-bottom: 0.1rem;
@@ -49,15 +52,26 @@ export const AccordionInner = styled.div`
 		}
 		.toggle {
 			margin-right: 1rem;
+			/* cursor: pointer; */
 		}
 	}
 	.accordion-content {
 		width: 40vw;
-		height: 10rem;
+		height: 18vh;
 		white-space: pre-line;
 		background-color: white;
 		color: rgb(106, 109, 113);
 		padding: 1rem;
+		font-family: "Shantell Sans", cursive;
+		box-sizing: border-box;
+	}
+
+	@media screen and (max-width: 820px) {
+		width: 50vw;
+		.accordion-content {
+			width: 50vw;
+			height: 20vh;
+		}
 	}
 `;
 
@@ -81,6 +95,7 @@ export const GridContainer = styled.div`
 		}
 		p {
 			text-align: center;
+			font-family: "Shantell Sans", cursive;
 			font-size: 1.4rem;
 			padding: 0.5rem 0;
 			color: rgb(106, 109, 113);

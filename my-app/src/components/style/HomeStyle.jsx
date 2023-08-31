@@ -6,7 +6,7 @@ export const HomeContainer = styled.div`
 	justify-content: space-between;
 	margin: 0 3rem 3rem;
 	padding-top: 20rem;
-	height: 100vh;
+	height: 60vh;
 	h1 {
 		font-size: 7rem;
 		font-family: "Shantell Sans", cursive;
