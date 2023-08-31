@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { AccordionInner, AccordionFlex,  TitleStyle, ToggleStyle, ContentStyle } from "./style/SkillsStyle"; 
+import { AccordionInner } from "./style/SkillsStyle";
 
 export default function PersonalSkills({ title, content }) {
-  const [isActive, setIsActive] = useState(false);
+	const [isActive, setIsActive] = useState(false);
 
-  return (
-    <AccordionInner className="accordion-item">
-      <AccordionFlex className="accordion-title" onClick={() => setIsActive(!isActive)}>
-        <TitleStyle>{title}</TitleStyle>
-        <ToggleStyle>{isActive ? "-" : "+"}</ToggleStyle>
-      </AccordionFlex>
-      {isActive && <ContentStyle className="accordion-content">{content}</ContentStyle>}
-    </AccordionInner>  
-  )
-};
+	return (
+		<AccordionInner className="accordion-item">
+			<div className="accordion-title" onClick={() => setIsActive(!isActive)}>
+				<h3>{title}</h3>
+				<div className="toggle">{isActive ? "-" : "+"}</div>
+			</div>
+			{isActive && <div className="accordion-content">{content}</div>}
+		</AccordionInner>
+	);
+}

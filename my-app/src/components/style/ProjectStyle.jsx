@@ -2,41 +2,36 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const ProjectContainer = styled.div`
-   height: 80vh;
-`
-
-export const Title = styled.h3`
-  font-family: "Mynerve", cursive;
-  font-size: 3rem;
-  color: rgb(106, 109, 113);
-  text-align: center;
-  margin-bottom: 5rem;
-`;
-
-export const FlexProjects = styled.div`
-  display: flex;
-  justify-content: space-around;
-`
-export const PortfolioImg = styled.img`
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  object-position: 0% 0%;
+	height: 80vh;
+	h3 {
+		padding-top: 10rem;
+		margin-bottom: 5rem;
+		font-family: "Mynerve", cursive;
+		font-size: 5rem;
+		color: rgb(106, 109, 113);
+		text-align: center;
+	}
+	.projectsInner {
+		display: flex;
+		justify-content: space-around;
+		.img {
+			width: 25rem;
+			height: 25rem;
+			object-fit: cover;
+		}
+		.portfolio {
+			object-position: 0% 0%;
+		}
+		p {
+			margin-top: 1rem;
+			font-size: 1.8rem;
+			font-family: "Shantell Sans", cursive;
+			color: rgb(73, 74, 76);
+			text-align: center;
+		}
+	}
 `;
 
 export const LinkStyle = styled(Link)`
-  text-decoration: none;
-`
-export const RemakingImg = styled.img`
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+	text-decoration: none;
 `;
-
-export const MiniTitle = styled.p`
-  font-size: 1.4rem;
-  font-family: "Shantell Sans", cursive;
-  color: rgb(73, 74, 76);
-  text-align: center;
-`
-
