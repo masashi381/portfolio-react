@@ -30,6 +30,7 @@ export const AccordionInner = styled.div`
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		cursor: pointer;
 		h3 {
 			display: block;
 			margin: 0;
@@ -40,7 +41,6 @@ export const AccordionInner = styled.div`
 		}
 		.accordion-btn {
 			margin-right: 1rem;
-			cursor: pointer;
 		}
 	}
 	.accordion-content {
@@ -49,5 +49,6 @@ export const AccordionInner = styled.div`
 		background-color: white;
 		color: rgb(106, 109, 113);
 		padding: 1rem;
+		font-family: "Shantell Sans", cursive;
 	}
 `;

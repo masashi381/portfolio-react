@@ -15,6 +15,9 @@ export const HeaderStyle = styled.header`
 			justify-content: end;
 			li {
 				list-style: none;
+				&:hover {
+					opacity: 0.5;
+				}
 			}
 		}
 	}
