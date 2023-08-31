@@ -34,7 +34,6 @@ export const ProjectContainer = styled.div`
 	}
 
 	@media screen and (max-width: 820px) {
-		height: 40vh;
 		h3 {
 			font-size: 4.5rem;
 		}

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
+	height: 50vw;
 	h3 {
 		font-family: "Mynerve", cursive;
 		font-size: 3rem;
@@ -12,6 +13,16 @@ export const SkillsContainer = styled.div`
 		justify-content: space-around;
 		align-items: center;
 		height: 80vh;
+		margin-top: 5rem;
+	}
+
+	@media screen and (max-width: 820px) {
+		h3 {
+			font-size: 4.5rem;
+		}
+		.skillsInner {
+			height: 30vh;
+		}
 	}
 `;
 
