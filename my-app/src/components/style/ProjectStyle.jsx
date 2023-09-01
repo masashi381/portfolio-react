@@ -30,6 +30,21 @@ export const ProjectContainer = styled.div`
 			text-align: center;
 		}
 	}
+
+	@media screen and (max-width: 375px){
+		height: auto;
+		.projectsInner{
+			flex-direction: column;
+			.img{
+    		display: block;
+				width: 90%;
+    		margin: 0 auto;
+			}
+			p{
+				margin: 2rem auto;
+			}
+		}
+	}
 `;
 
 export const LinkStyle = styled(Link)`
