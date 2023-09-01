@@ -20,6 +20,9 @@ export const HomeContainer = styled.div`
 		height: 40vh;
 		padding-top: 15rem;
 	}
+
+	@media screen and (max-width: 375px) {
+	}
 `;
 
 export const LinkStyle = styled(Link)`
