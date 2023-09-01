@@ -51,4 +51,10 @@ export const AccordionInner = styled.div`
 		padding: 1rem;
 		font-family: "Shantell Sans", cursive;
 	}
+
+	@media screen and (max-width: 375px) {
+		.accordion-content{
+			height: auto;
+		}
+	}
 `;
