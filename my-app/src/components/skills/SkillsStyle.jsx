@@ -27,11 +27,12 @@ export const SkillsContainer = styled.div`
 		}
 	}
 
-	@media screen and (max-width: 375px){
+	@media screen and (max-width: 375px) {
 		width: 90%;
 		height: auto;
-    margin: 2rem auto;
-		.skillsInner{
+		padding-top: 5rem;
+		margin: 2rem auto;
+		.skillsInner {
 			flex-direction: column;
 			height: auto;
 		}
@@ -86,7 +87,7 @@ export const AccordionInner = styled.div`
 
 	@media screen and (max-width: 375px) {
 		width: 90vw;
-		.accordion-content{
+		.accordion-content {
 			width: 90vw;
 			height: auto;
 		}
