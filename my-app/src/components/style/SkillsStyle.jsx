@@ -26,6 +26,16 @@ export const SkillsContainer = styled.div`
 			height: 30vh;
 		}
 	}
+
+	@media screen and (max-width: 375px){
+		width: 90%;
+		height: auto;
+    margin: 2rem auto;
+		.skillsInner{
+			flex-direction: column;
+			height: auto;
+		}
+	}
 `;
 
 // PersonalSkills
@@ -73,6 +83,14 @@ export const AccordionInner = styled.div`
 			height: 20vh;
 		}
 	}
+
+	@media screen and (max-width: 375px) {
+		width: 90vw;
+		.accordion-content{
+			width: 90vw;
+			height: auto;
+		}
+	}
 `;
 
 // ProgrammingSkills
@@ -118,5 +136,10 @@ export const GridContainer = styled.div`
 	}
 	.item6 {
 		grid-area: item6;
+	}
+
+	@media screen and (max-width: 375px) {
+		width: 90vw;
+		margin-top: 2rem;
 	}
 `;
