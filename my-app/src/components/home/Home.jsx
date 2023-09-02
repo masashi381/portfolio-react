@@ -10,7 +10,7 @@ export default function Home() {
 				<h2>This is my portfolio</h2>
 			</div>
 			{/* SNS */}
-			<div>
+			<div className="homeSns">
 				<LinkStyle to="https://www.instagram.com/marcy.387" target="_blank">
 					<i className="fa-brands fa-instagram fa-lg"></i>
 				</LinkStyle>

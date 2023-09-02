@@ -22,6 +22,19 @@ export const HomeContainer = styled.div`
 	}
 
 	@media screen and (max-width: 375px) {
+		display: block;
+		width: 90%;
+		margin: 0rem auto;
+		h1 {
+			text-align: center;
+		}
+		h2 {
+			margin-top: 2rem;
+			text-align: center;
+		}
+		.homeSns {
+			display: none;
+		}
 	}
 `;
 
