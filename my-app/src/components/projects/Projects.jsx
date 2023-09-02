@@ -1,4 +1,4 @@
-import { ProjectContainer, LinkStyle } from "./style/ProjectStyle";
+import { ProjectContainer, LinkStyle } from "./ProjectStyle";
 
 export default function Projects({ getProjects }) {
 	return (

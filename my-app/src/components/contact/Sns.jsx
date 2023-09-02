@@ -1,4 +1,4 @@
-import { OptionsStyle, IconsStyle } from "./style/ContactStyle";
+import { OptionsStyle, IconsStyle } from "./ContactStyle";
 
 export default function Sns() {
 	return (

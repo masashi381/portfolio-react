@@ -1,4 +1,4 @@
-import { GridContainer } from "./style/SkillsStyle";
+import { GridContainer } from "./SkillsStyle";
 
 export default function ProgrammingSkills() {
 	return (

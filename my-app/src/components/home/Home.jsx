@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeContainer, LinkStyle } from "./style/HomeStyle";
+import { HomeContainer, LinkStyle } from "./HomeStyle";
 
 export default function Home() {
 	return (

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AccordionInner } from "./style/WorkStyle";
+import { AccordionInner } from "./WorkStyle";
 
 export default function WorkAccordion({ workTitle, workContent }) {
 	const [isWorkActive, setIsWorkActive] = useState(false);

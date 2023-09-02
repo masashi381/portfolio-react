@@ -1,7 +1,7 @@
 import PersonalSkills from "./PersonalSkills";
 import ProgrammingSkills from "./ProgrammingSkills";
-import { accordionData } from "./data/AccordionData";
-import { SkillsContainer } from "./style/SkillsStyle";
+import { accordionData } from "../data/AccordionData";
+import { SkillsContainer } from "./SkillsStyle";
 
 export default function Skills({ getSkills }) {
 	return (

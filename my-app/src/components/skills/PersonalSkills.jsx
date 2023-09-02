@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AccordionInner } from "./style/SkillsStyle";
+import { AccordionInner } from "./SkillsStyle";
 
 export default function PersonalSkills({ title, content }) {
 	const [isActive, setIsActive] = useState(false);
