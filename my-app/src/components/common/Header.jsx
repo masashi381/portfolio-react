@@ -1,44 +1,24 @@
-import { HeaderStyle, HeaderLinkStyle } from "./HeaderStyle";
-
+import { HeaderStyle } from "./HeaderStyle";
+import { useState } from "react";
+import Nav from "./Nav";
+import ToggleBtn from "./ToggleBtn";
 export default function Header(props) {
-	const skillClickedHandler = () => {
-		props.getSkills.current.scrollIntoView({
-			behavior: "smooth",
-		});
-	};
-	const projectsClickedHandler = () => {
-		props.getProjects.current.scrollIntoView({
-			behavior: "smooth",
-		});
+	const [open, setOpen] = useState(false);
+	const clickHandler = () => {
+		setOpen((prev) => !prev);
 	};
 	return (
 		<HeaderStyle>
-			<nav>
-				<ul>
-					<li>
-						<HeaderLinkStyle to="/">home</HeaderLinkStyle>
-					</li>
-					<li>
-						<HeaderLinkStyle to="/about">About</HeaderLinkStyle>
-					</li>
-					<li>
-						<HeaderLinkStyle to="/#projects" onClick={projectsClickedHandler} ref={props.passProjects}>
-							Projects
-						</HeaderLinkStyle>
-					</li>
-					<li>
-						<HeaderLinkStyle to="/#skills" onClick={skillClickedHandler} ref={props.passSkills}>
-							Skills
-						</HeaderLinkStyle>
-					</li>
-					<li>
-						<HeaderLinkStyle to="/work">Work Experience</HeaderLinkStyle>
-					</li>
-					<li>
-						<HeaderLinkStyle to="/contacts">Contacts</HeaderLinkStyle>
-					</li>
-				</ul>
-			</nav>
+			<ToggleBtn open={open} controls="navigation" onClick={clickHandler} />
+			<Nav
+				id="navigation"
+				open={open}
+				passSkills={props.passSkills}
+				getSkills={props.getSkills}
+				passProjects={props.passProjects}
+				getProjects={props.getProjects}
+				onClick={clickHandler}
+			/>
 		</HeaderStyle>
 	);
 }
