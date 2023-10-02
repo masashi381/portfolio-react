@@ -1,7 +1,6 @@
 import { HamburgerStyle } from "./HeaderStyle";
 
 export default function ToggleBtn(props) {
-	console.log("Toggle", props);
 	return (
 		<HamburgerStyle
 			type="button"

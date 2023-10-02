@@ -12,46 +12,49 @@ export const AboutContainer = styled.div`
 		height: auto;
 		object-fit: cover;
 		border-radius: 50%;
-		margin-left: 5rem;
+		margin-left: 2rem;
 	}
-	.miniTitle {
-		font-size: 2.4rem;
-		color: rgb(73, 74, 76);
-		margin-bottom: 2rem;
-		font-family: "Shantell Sans", cursive;
-		strong {
-			font-size: 4rem;
+	.aboutInner {
+		margin-left: 2rem;
+		.miniTitle {
+			font-size: 2.4rem;
+			color: rgb(73, 74, 76);
+			margin-bottom: 2rem;
 			font-family: "Shantell Sans", cursive;
+			strong {
+				font-size: 4rem;
+				font-family: "Shantell Sans", cursive;
+			}
 		}
-	}
-	.detail {
-		width: 50vw;
-		font-size: 1.8rem;
-		font-family: "Shantell Sans", cursive;
-		color: rgb(73, 74, 76);
-		margin-bottom: 1rem;
-	}
-	.hobbyTitle {
-		font-size: 1.8rem;
-		color: rgb(73, 74, 76);
-		margin-bottom: 1rem;
-		font-family: "Shantell Sans", cursive;
-	}
-	ul {
-		width: 25vw;
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		gap: 1rem 1rem;
-		li {
+		.detail {
+			width: 50vw;
 			font-size: 1.8rem;
 			font-family: "Shantell Sans", cursive;
-			border: 1px solid rgba(73, 74, 76, 0.5);
-			border-radius: 9rem;
-			padding: 0.5rem;
-			i {
-				margin-right: 0.5rem;
-				color: rgb(23, 30, 219);
+			color: rgb(73, 74, 76);
+			margin-bottom: 1rem;
+		}
+		.hobbyTitle {
+			font-size: 1.8rem;
+			color: rgb(73, 74, 76);
+			margin-bottom: 1rem;
+			font-family: "Shantell Sans", cursive;
+		}
+		ul {
+			width: 25vw;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 1rem 1rem;
+			li {
+				font-size: 1.8rem;
+				font-family: "Shantell Sans", cursive;
+				border: 1px solid rgba(73, 74, 76, 0.5);
+				border-radius: 9rem;
+				padding: 0.5rem;
+				i {
+					margin-right: 0.5rem;
+					color: rgb(23, 30, 219);
+				}
 			}
 		}
 	}
