@@ -1,10 +1,11 @@
 import React from "react";
 import { AboutContainer } from "./AboutStyle";
+import myImg from "../public/static/images/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg";
 
 export default function About() {
 	return (
 		<AboutContainer>
-			<img src="../public/static/images/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg" alt="my picture" />
+			<img src={myImg} alt="my picture" />
 			<div className="aboutInner">
 				<p className="miniTitle">
 					Hello, I am <strong>Masashi Sawada</strong> located in Vancouver.
