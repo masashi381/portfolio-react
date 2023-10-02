@@ -4,7 +4,7 @@ import { AboutContainer } from "./AboutStyle";
 export default function About() {
 	return (
 		<AboutContainer>
-			<img src="../public/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg" alt="my picture" />
+			<img src="../public/static/images/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg" alt="my picture" />
 			<div className="aboutInner">
 				<p className="miniTitle">
 					Hello, I am <strong>Masashi Sawada</strong> located in Vancouver.
