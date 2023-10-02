@@ -1,6 +1,6 @@
 import React from "react";
 import { AboutContainer } from "./AboutStyle";
-import myImg from "../public/static/images/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg";
+import myImg from "../../../public/static/images/3b631c2e-bfcb-4c2f-8145-fbd6e9c3efc9.jpg";
 
 export default function About() {
 	return (

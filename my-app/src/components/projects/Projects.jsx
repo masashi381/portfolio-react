@@ -1,6 +1,6 @@
 import { ProjectContainer, LinkStyle } from "./ProjectStyle";
-import portfolio from "../public/static/images/portfolio.png";
-import redBeef from "../public/static/images/remakingHomepages.png";
+import portfolio from "../../../public/static/images/portfolio.png";
+import redBeef from "../../../public/static/images/remakingHomepages.png";
 
 export default function Projects({ getProjects }) {
 	return (
