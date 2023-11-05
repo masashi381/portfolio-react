@@ -1,7 +1,7 @@
 import { ProjectContainer, LinkStyle } from "./ProjectStyle";
-// import portfolio from "../images/portfolio.png";
 import portfolio from "../../../images/portfolio.png";
 import redBeef from "../../../images/remakingHomepages.png";
+import fridgeFy from "../../../images/fridgefy.png";
 
 export default function Projects({ getProjects }) {
 	return (
@@ -15,6 +15,10 @@ export default function Projects({ getProjects }) {
 				<LinkStyle to="https://masashi381.github.io/Remaking-HomePages/" target="_blank">
 					<img className="mockup img" src={redBeef} alt="Remaking HomePages" />
 					<p>Remaking HomePages</p>
+				</LinkStyle>
+				<LinkStyle to="https://fridgefy-ten.vercel.app/" target="_blank">
+					<img className="fridgefy img" src={fridgeFy} alt="fridgefy react" />
+					<p>fridgefy react</p>
 				</LinkStyle>
 			</div>
 		</ProjectContainer>
