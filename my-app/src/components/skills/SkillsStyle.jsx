@@ -63,7 +63,6 @@ export const AccordionInner = styled.div`
 		}
 		.toggle {
 			margin-right: 1rem;
-			/* cursor: pointer; */
 		}
 	}
 	.accordion-content {
@@ -102,7 +101,8 @@ export const GridContainer = styled.div`
 	grid-template: repeat(1, 1fr) / repeat(6, 1fr);
 	grid-template-areas:
 		"item1 item1 item2 item2 item3 item3"
-		"item4 item4 item5 item5 item6 item6";
+		"item4 item4 item5 item5 item6 item6"
+		"item7 item7 item7 item8 item8 item8";
 	row-gap: 2rem;
 	.items {
 		display: flex;
@@ -137,6 +137,12 @@ export const GridContainer = styled.div`
 	}
 	.item6 {
 		grid-area: item6;
+	}
+	.item7 {
+		grid-area: item7;
+	}
+	.item8 {
+		grid-area: item8;
 	}
 
 	@media screen and (max-width: 375px) {

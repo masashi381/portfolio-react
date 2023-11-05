@@ -27,6 +27,14 @@ export default function ProgrammingSkills() {
 				<i className="fa-brands fa-react"></i>
 				<p>React</p>
 			</div>
+			<div className="item7 items">
+			<i className="fab fa-node"></i>
+				<p>Node.js </p>
+			</div>
+			<div className="item8 items">
+			<i className="fas fa-database"></i>
+				<p>postgresql & mongo DB </p>
+			</div>
 		</GridContainer>
 	);
 }
