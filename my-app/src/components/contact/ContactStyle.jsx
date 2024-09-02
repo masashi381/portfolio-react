@@ -40,6 +40,13 @@ export const FormStyle = styled.form`
     letter-spacing: 0.1rem;
     background: rgb(138, 140, 143);
     color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0 5px rgb(106, 109, 113);
+    &:active {
+      position: relative;
+      top: 5px;
+      box-shadow: none;
+    }
   }
 
   @media screen and (max-width: 820px) {

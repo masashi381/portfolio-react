@@ -4,8 +4,8 @@ import Work from "../components/work/Work";
 import Contacts from "../components/contact/Contacts";
 import NotFound from "../components/common/NotFound";
 import { Routes, Route } from "react-router-dom";
+import PropTypes from "prop-types";
 
-// eslint-disable-next-line react/prop-types
 export default function Main({ getSkills, getProjects }) {
   return (
     <>
@@ -19,3 +19,11 @@ export default function Main({ getSkills, getProjects }) {
     </>
   );
 }
+Main.propTypes = {
+  getSkills: PropTypes.shape({
+    current: PropTypes.instanceOf(Element),
+  }).isRequired,
+  getProjects: PropTypes.shape({
+    current: PropTypes.instanceOf(Element),
+  }).isRequired,
+};

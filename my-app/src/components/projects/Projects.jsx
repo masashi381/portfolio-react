@@ -4,8 +4,8 @@ import redBeef from "../../../images/remakingHomepages.png";
 import fridgeFy from "../../../images/fridgefy.png";
 import eventllege from "../../../images/eventllege.png";
 import restaurantReview from "../../../images/restaurant_review.png";
+import PropTypes from "prop-types";
 
-// eslint-disable-next-line react/prop-types
 export default function Projects({ getProjects }) {
   return (
     <ProjectContainer id="projects">
@@ -35,3 +35,8 @@ export default function Projects({ getProjects }) {
     </ProjectContainer>
   );
 }
+Projects.propTypes = {
+  getProjects: PropTypes.shape({
+    current: PropTypes.any,
+  }),
+};
