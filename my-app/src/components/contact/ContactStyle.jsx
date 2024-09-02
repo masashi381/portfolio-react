@@ -7,7 +7,7 @@ export const ContactsContainer = styled.div`
   padding-top: 12rem;
   margin: 0 2rem 5rem;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 430px) {
     flex-direction: column;
   }
 `;
@@ -53,7 +53,7 @@ export const FormStyle = styled.form`
     width: 40vw;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 430px) {
     order: 2;
     width: 90%;
     margin-top: 2rem;
@@ -90,7 +90,7 @@ export const OptionsStyle = styled.div`
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 430px) {
     order: 1;
     width: 90%;
     margin-top: 1rem;
@@ -104,7 +104,7 @@ export const IconsStyle = styled(Link)`
   font-size: 2rem;
   color: rgb(73, 74, 76);
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 430px) {
     font-size: 3rem;
   }
 `;
