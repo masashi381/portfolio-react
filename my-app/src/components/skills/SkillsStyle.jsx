@@ -27,7 +27,7 @@ export const SkillsContainer = styled.div`
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 430px) {
     width: 90%;
     height: auto;
     padding-top: 5rem;
@@ -84,7 +84,7 @@ export const AccordionInner = styled.div`
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 430px) {
     width: 90vw;
     .accordion-content {
       width: 90vw;
@@ -170,7 +170,7 @@ export const GridContainer = styled.div`
     grid-area: item16;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 430px) {
     width: 90vw;
     margin-top: 2rem;
   }
