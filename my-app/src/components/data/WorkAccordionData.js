@@ -1,7 +1,7 @@
 export const workAccordionData = [
   {
     workTitle: "Education",
-    workContent: `Jan 2023 ~ : web & Mobile App Development Program in CICCC - Web Development
+    workContent: `Jan 2023 ~ Dec 2023 : web & Mobile App Development Program in CICCC - Web Development
     
     Sep 2022 - Dec 2022 : ESL in Cornerstone International Community College of Canada - From Intermediate to High Intermediate
     
@@ -9,11 +9,14 @@ export const workAccordionData = [
     
     July 2021 - Sep 2021 : ESL in SELC Bondi in Sydney Australia - Pre-intermediate to intermediate and IELTs
     
-    2011 - 2014 Trajal Hospitality Truism College, Hotel cause, Japan - Hotel Management`
+    2011 - 2014 Trajal Hospitality Truism College, Hotel cause, Japan - Hotel Management`,
   },
   {
     workTitle: "Work Experience",
-    workContent: `Feb 2020 - July 2022 : Momiji Japanese takeaway shop in Sydney Australia
+    workContent: `
+    Feb 2024 ~ : Creating data management web application as a volunteer.
+
+    Feb 2020 - July 2022 : Momiji Japanese takeaway shop in Sydney Australia
 
     Waiter, cooking help
     
@@ -27,6 +30,6 @@ export const workAccordionData = [
     
     Jun 2015 - Jan 2019 : Meisetu logistics, Japan
     
-    Preparing food packages for delivery`
-  }
-]
+    Preparing food packages for delivery`,
+  },
+];
