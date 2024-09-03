@@ -29,7 +29,7 @@ export default function Projects({ getProjects }) {
         </LinkStyle>
         <LinkStyle to="https://github.com/masashi381/restaurant_review" target="_blank">
           <img className="Restaurant_review img" src={restaurantReview} alt="Restaurant Review" />
-          <p>Eventllege</p>
+          <p>Restaurant Review</p>
         </LinkStyle>
       </div>
     </ProjectContainer>
