@@ -27,10 +27,27 @@ export const ProjectContainer = styled.div`
     }
     p {
       margin-top: 1rem;
+      margin-bottom: 1rem;
       font-size: 1.8rem;
       font-family: "Shantell Sans", cursive;
       color: rgb(73, 74, 76);
       text-align: center;
+    }
+    .tag {
+      /* text-align: center; */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 25rem;
+      span {
+        color: rgb(73, 74, 76);
+        font-size: 1.2rem;
+        font-family: "Shantell Sans", cursive;
+        margin: 0 0.5rem 0.5rem;
+        padding: 0.1rem 1rem;
+        border: 1px solid rgba(73, 74, 76);
+        border-radius: 1rem;
+      }
     }
   }
 
