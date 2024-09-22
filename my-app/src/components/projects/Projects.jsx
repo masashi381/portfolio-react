@@ -48,14 +48,13 @@ export default function Projects({ getProjects }) {
             <span>postgreSQL</span>
           </div>
         </LinkStyle>
-        <LinkStyle to="https://github.com/masashi381/restaurant_review" target="_blank">
+        <LinkStyle to="https://rr-project-seven.vercel.app/Restaurants" target="_blank">
           <img className="Restaurant_review img" src={restaurantReview} alt="Restaurant Review" />
           <p>Restaurant Review</p>
           <div className="tag">
             <span>Next js</span>
             <span>TypeScript</span>
             <span>DaisyUI</span>
-            <span>Express js</span>
             <span>mongoDB</span>
           </div>
         </LinkStyle>
