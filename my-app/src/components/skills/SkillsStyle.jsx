@@ -67,7 +67,7 @@ export const AccordionInner = styled.div`
   }
   .accordion-content {
     width: 40vw;
-    height: 23vh;
+    height: 24vh;
     white-space: pre-line;
     background-color: white;
     color: rgb(106, 109, 113);
@@ -103,7 +103,8 @@ export const GridContainer = styled.div`
     "item1 item1 item2 item2 item3 item3 item4 item4"
     "item5 item5 item6 item6 item7 item7 item8 item8"
     "item9 item9 item10 item10 item11 item11 item12 item12"
-    "item13 item13 item14 item14 item15 item15 item16 item16";
+    "item13 item13 item14 item14 item15 item15 item16 item16"
+    "item17 item17 item17 item17 item18 item18 item18 item18 ";
   row-gap: 2rem;
   .items {
     display: flex;
@@ -168,6 +169,12 @@ export const GridContainer = styled.div`
   }
   .item16 {
     grid-area: item16;
+  }
+  .item17 {
+    grid-area: item17;
+  }
+  .item18 {
+    grid-area: item18;
   }
 
   @media screen and (max-width: 430px) {
