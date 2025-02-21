@@ -10,7 +10,7 @@ export default function About() {
           Hello, I am <strong>Masashi Sawada</strong> located in Vancouver.
         </p>
         <p className="detail">
-          Detail oriented full stack developer with 1+ years&#39; experience in building and maintaining scalable web
+          Detail oriented full stack developer with 2+ years&#39; experience in building and maintaining scalable web
           appreciations with engaging user interfaces. Currently working as freelance developer on a full stack project
           for a client. I am truly passionate about learning and development with a desire to apply skills in medium to
           large dev teams. Eager to tackle more complex problems and create value and amazing experiences for users.

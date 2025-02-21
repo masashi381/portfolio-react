@@ -14,7 +14,9 @@ export const workAccordionData = [
   {
     workTitle: "Work Experience",
     workContent: `
-    Feb 2024 ~ : Creating data management web application as a volunteer.
+    Nov 2024 ~ current : Creating data management application for Real Estate company as a full stuck developer.
+
+    Feb 2024 ~ Sep 2024 : Creating data management web application as a volunteer.
 
     Feb 2020 - July 2022 : Momiji Japanese takeaway shop in Sydney Australia
 
@@ -26,10 +28,12 @@ export const workAccordionData = [
     
     Sep 2019 - Nov 2019 : A & A Strawberry Farm, in Caboolture Australia
     
-    Picker
-    
-    Jun 2015 - Jan 2019 : Meisetu logistics, Japan
-    
-    Preparing food packages for delivery`,
+    Picker`,
   },
 ];
+
+/** work history */
+/**
+  Jun 2015 - Jan 2019 : Meisetu logistics, Japan
+    Preparing food packages for delivery
+ */

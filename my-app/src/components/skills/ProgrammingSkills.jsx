@@ -8,6 +8,8 @@ import { SiDaisyui } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
+import { FaJava } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
 export default function ProgrammingSkills() {
   return (
     <GridContainer>
@@ -74,6 +76,14 @@ export default function ProgrammingSkills() {
       <div className="item16 items">
         <SiMui size={50} />
         <p>MUI</p>
+      </div>
+      <div className="item17 items">
+        <FaJava size={50} />
+        <p>Java</p>
+      </div>
+      <div className="item18 items">
+        <SiSpringboot size={50} />
+        <p>Spring Boot</p>
       </div>
     </GridContainer>
   );
